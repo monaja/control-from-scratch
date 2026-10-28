@@ -21,6 +21,13 @@ python control_2_pi.py
 python control_3_pid.py
 ```
 
+### Motor Model
+#### Results
+Model Open Loop Output
+![Motor Model](figures/model_open_loop.png)
+
+CommandLine Output
+![SC Motor Model](figures/sc_model_open_loop.png)
 ## Coming next
 - Step 4: identify the motor's parameters from noisy data (least squares)
 - Step 5: PID designed from the transfer function (Laplace)

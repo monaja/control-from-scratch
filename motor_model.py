@@ -146,5 +146,5 @@ if __name__ == "__main__":
            ylim=(-50, 3 * w_ss))
     ax.legend(fontsize=8); ax.grid(alpha=0.3)
     fig.tight_layout()
-    fig.savefig("model_open_loop.png", dpi=140)
+    fig.savefig("figures/model_open_loop.png", dpi=140)
     print("\nSaved model_open_loop.png")
